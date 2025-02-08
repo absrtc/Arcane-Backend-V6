@@ -1,0 +1,15 @@
+{
+  "name": "arcanev6",
+  "version": "6.0.0",
+  "description": "arcane backend very cool",
+  "main": "src/index.ts",
+  "repository": "https://github.com/absrtc/Arcane-Backend-V6.git",
+  "author": "abstract",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
