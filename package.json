@@ -1,8 +1,9 @@
 {
   "name": "arcanev6",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "description": "arcane backend very cool",
   "main": "src/index.ts",
+  "type": "module",
   "repository": "https://github.com/absrtc/Arcane-Backend-V6.git",
   "author": "abstract",
   "license": "MIT",
@@ -11,5 +12,14 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7",
+    "fs": "^0.0.1-security",
+    "hono": "^4.7.0",
+    "mongoose": "^8.10.0",
+    "path": "^0.12.7"
   }
 }
