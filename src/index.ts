@@ -37,11 +37,11 @@ async function loadRoutes() {
                     log.error(`invalid export in ${fileName}: expected hono instance.`);
                 }
             } catch (err) {
-                log.error(`Error loading route ${fileName}: ${err}`);
+                log.error(`error loading route ${fileName}: ${err}`);
             }
         }
     } catch (err) {
-        log.error(`Failed to read routes directory: ${err}`);
+        log.error(`failed to read routes directory: ${err}`);
     }
 }
 
